@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--font-family) ;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    padding: 15px;
+    z-index: 1000;
+    top: 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Banner */
+.banner{
+    position:relative;
+    background-image: url(./images/pizza1\ 1.png) ;  
+    top:70px ;
+    width: 100%;
+    height: 620px;
+    color: white;
+    
+
+}
+
+.bannnames{
+    padding: 40px;
+    margin: 40px;
+    
+}
+.banner h1{
+    padding: 150px;
+    font-size:40px;
+    width: 900px;
+}
+.banner p{
+    padding: 5px;
+    margin-left: 150px;
+    margin-top: 0%;
+    width: 300px;
+} 
+
+.bannames div{
+    padding-left: 100px;
+    margin: 20px;
+    
+}
+
+/* About Us */
+
+.Aboutus{
+    position: relative;
+    background-color: black;
+}
+.Aboutus .title{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.Aboutus center{
+   color: white;
+   /* margin: 20px; */
+   /* padding: 20px; */
+   font-weight: 300;
+   font-size: 30px;
+   margin-top: 0px;
+  
+
+}
+.Aboutus img{
+   width: 75%;
+height: 406px;
+top: 1368px;
+left: 949px;
+border-radius: 10px;
+
+}
+
+.Aboutstory{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 45px;
+    color: pink;
+    
+}
+.Aboutstory p{
+    width: 60%;
+}
+
+/* Menu */
+.Menu{
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 100%;
+    
+}
+.Menu .title{
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+.Menu p.para{
+    width: 80%;
+    padding-left: 90px;
+}
+.Menu .menuitems{
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(2, 50%);
+    margin: 80px;
+    padding: 20px;
+
+}
+.menuitems .item{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    /* padding: 20px;
+    margin: 20px; */
+    
+}
+.item h3{
+    color: orange;
+}
+.item .matter{
+    margin: 5px;
+    margin: 15px;
+    
+}
+
+/* carousel */
+.Corouse{
+    position: relative;
+    background-color: black;
+    color: white;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 100%);
+   top:0px ;
+
+}
+.Corouse .title{
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 15px;
+    
+}
+#carouselExample{
+    width: 80%;
+    height: 600px;
+    margin-left: 130px;
+}
+
+.Corouse img{
+    width: 100%;
+    height: 600px;
+}
+
+/* Gallary */
+
+.Galarry{
+    background-color: black;
+    color: white;
+    position: relative;
+
+}
+.Galarry .title{
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 15px;
+    
+}
+
+.Galarry .all{
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    width: 80%;
+    
+}
+.all .a{
+    height: 600px;
+
+}
+
+/* Finfus */
+
+.Findus{
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.Findus .all{
+    width: 80%;
+    display: flex;
+    padding-left: 110px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.mini{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+.mini .logo{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+}
+.part1 {
+    width: 50%;
+    margin: 40px;
+   
+    
+}
+.part2 {
+    margin: 40px;
+    width: 50%;
+}
+
+/* Footer */
+
+.Footer{
+    position: relative;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.Footer .m{
+    margin-left: 120px;
+}
+.Footer .mini{
+    margin-right: 120px;
+}
+
